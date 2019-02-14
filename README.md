@@ -1,4 +1,4 @@
-# district_map
+# District Map
 Tool to allow parents find child's assigned school based on address
 
 #TODO:
