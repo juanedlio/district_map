@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Address Checker</title>
+    <style>
+      #map {
+        height: 0%;
+      }
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      This is a proof of concept. The box below will tell you what imaginary schools in Austin your children would be assigned to. Results will appear in the console.
+    </div>
+    <input type="text" id="location"></input>
+    <input type="button" id="submit" value="Check Location"></input>
+    <div id="results"></div>
+    <div id="map"></div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAf2xUELY06TyIxIK8I-atfPDxLE5dAn88&libraries=geometry&callback=initMap"
+         async defer></script>
+    <script type="text/javascript" src="js/schools.js"></script>
+    <script>
+
+      // Initialize Map
+      function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 30.267, lng: -97.743},
+          zoom: 9,
+        });
+
+        var geocoder = new google.maps.Geocoder();
+
+        // High School boundaries
+        var southHS = [
+          {lng: -97.7876947, lat: 30.292123},
+          {lng: -97.7743051, lat: 30.3170214},
+          {lng: -97.7969644, lat: 30.3505057},
+          {lng: -97.8577326, lat: 30.3546534},
+          {lng: -97.9418467, lat: 30.3161323},
+          {lng: -97.9586695, lat: 30.307537},
+          {lng: -97.9875086, lat: 30.2108629},
+          {lng: -97.6634119, lat: 30.0873615},
+          {lng: -97.6187799, lat: 30.1912792},
+          {lng: -97.6620386, lat: 30.2595084},
+          {lng: -97.7032373, lat: 30.2440868},
+          {lng: -97.7540491, lat: 30.2618807},
+          {lng: -97.7876947, lat: 30.292123}
+        ];
+        var northHS = [
+          {lng: -97.7876947, lat: 30.292123},
+          {lng: -97.7547357, lat: 30.264253},
+          {lng: -97.7507017, lat: 30.2635117},
+          {lng: -97.742462, lat: 30.2598049},
+          {lng: -97.7418611, lat: 30.2580998},
+          {lng: -97.7032373, lat: 30.2440868},
+          {lng: -97.6495073, lat: 30.2643271},
+          {lng: -97.6255606, lat: 30.2540963},
+          {lng: -97.5540368, lat: 30.3278045},
+          {lng: -97.5869958, lat: 30.4521879},
+          {lng: -97.6844994, lat: 30.4865134},
+          {lng: -97.861654, lat: 30.5314734},
+          {lng: -97.9632775, lat: 30.4261397},
+          {lng: -98.0539147, lat: 30.3443981},
+          {lng: -97.9586695, lat: 30.307537},
+          {lng: -97.8577326, lat: 30.3546534},
+          {lng: -97.7969644, lat: 30.3505057},
+          {lng: -97.7743051, lat: 30.3170214},
+          {lng: -97.7876947, lat: 30.292123}
+        ];
+
+        // Middle School Boundaries
+        var northwestMS = [
+          {lng: -97.8676058, lat: 30.5358453},
+          {lng: -97.9932619, lat: 30.4086077},
+          {lng: -97.7259292, lat: 30.3547196},
+          {lng: -97.6661911, lat: 30.4843944},
+          {lng: -97.8676058, lat: 30.5358453}
+        ];
+        var northeastMS = [
+          {lng: -97.7259292, lat: 30.3547196},
+          {lng: -97.5761983, lat: 30.2918996},
+          {lng: -97.5085637, lat: 30.4192892},
+          {lng: -97.6661911, lat: 30.4843944},
+          {lng: -97.7259292, lat: 30.3547196}
+        ];
+        var southeastMS = [
+          {lng: -97.7269013, lat: 30.3502597},
+          {lng: -97.8429444, lat: 30.1420565},
+          {lng: -97.6692231, lat: 30.0808763},
+          {lng: -97.5761983, lat: 30.2918996},
+          {lng: -97.7269013, lat: 30.3502597}
+        ];
+        var southwestMS = [
+          {lng: -97.7269013, lat: 30.3502597},
+          {lng: -97.9932619, lat: 30.4086077},
+          {lng: -98.114856, lat: 30.2648964},
+          {lng: -97.8429444, lat: 30.1420565},
+          {lng: -97.7269013, lat: 30.3502597}
+        ];
+
+        // Elementary School Boundaries
+        var southES = [
+          {lng: -98.0326048, lat: 30.3632596},
+          {lng: -98.114856, lat: 30.2648964},
+          {lng: -97.6692231, lat: 30.0808763},
+          {lng: -97.6178709, lat: 30.1978227},
+          {lng: -98.0326048, lat: 30.3632596}
+        ];
+        var westES = [
+          {lng: -98.0326048, lat: 30.3632596},
+          {lng: -97.8613451, lat: 30.2954039},
+          {lng: -97.7742799, lat: 30.3863981},
+          {lng: -97.9214266, lat: 30.4796143},
+          {lng: -98.0326048, lat: 30.3632596}
+        ];
+        var northES = [
+          {lng: -97.8599082, lat: 30.5399001},
+          {lng: -97.9214266, lat: 30.4796143},
+          {lng: -97.7742799, lat: 30.3863981},
+          {lng: -97.5625907, lat: 30.3211356},
+          {lng: -97.5085637, lat: 30.4192892},
+          {lng: -97.8599082, lat: 30.5399001}
+        ];
+        var eastES = [
+          {lng: -97.6314576, lat: 30.3413712},
+          {lng: -97.7001222, lat: 30.2316795},
+          {lng: -97.6178709, lat: 30.1978227},
+          {lng: -97.5625907, lat: 30.3211356},
+          {lng: -97.6314576, lat: 30.3413712}
+        ];
+        var centralES = [
+          {lng: -97.6314576, lat: 30.3413712},
+          {lng: -97.7742799, lat: 30.3863981},
+          {lng: -97.8613451, lat: 30.2954039},
+          {lng: -97.7001222, lat: 30.2316795},
+          {lng: -97.6314576, lat: 30.3413712}
+        ];
+
+        // Create array of school coordinates for each school level
+        var hsCoords = [southHS, northHS];
+        var msCoords = [northwestMS, northeastMS, southeastMS, southwestMS];
+        var esCoords = [southES, westES, northES, eastES, centralES];
+
+        var hsAreas = createBoundaries(hsCoords);
+        var msAreas = createBoundaries(msCoords);
+        var esAreas = createBoundaries(esCoords);
+
+        var areas = [hsAreas, msAreas, esAreas];
+
+
+        // Creates polygon for each school
+        function createBoundaries(schools) {
+          var area = []
+          schools.forEach(function(coords){
+            area.push(new google.maps.Polygon({paths: coords}));
+          });
+          return area;
+        }
+
+        // Listen for "Check Location" button
+        document.getElementById('submit').addEventListener('click', function() {
+          checkAddress(geocoder, map, areas, schools);
+        });
+      }
+
+
+      // Checks to see what school the address would be assigned to and displays results
+      function checkAddress(geocoder, resultsMap, areas, schools) {
+        var address = document.getElementById('location').value;
+        geocoder.geocode({'address': address}, function(results, status) {
+          if (status === 'OK') {
+
+            let latLng = results[0].geometry.location;
+            let answer = document.getElementById('results');
+            let poly = google.maps.geometry.poly;
+
+            var hsID = schoolCheck(areas[0], poly, latLng);
+            var msID = schoolCheck(areas[1], poly, latLng);
+            var esID = schoolCheck(areas[2], poly, latLng);
+
+            console.log(schools[0][hsID]);
+            console.log(schools[1][msID]);
+            console.log(schools[2][esID]);
+
+          } else {
+            alert('Geocode was not successful for the following reason: ' + status);
+          }
+        });
+      }
+
+      function schoolCheck(areas, poly, latLng){
+        let i = 0;
+        var len = areas.length;
+        areas.forEach(function(area){
+          if(poly.containsLocation(latLng, area)){
+            return i;
+          } else {
+            i++;
+            if(i == len){
+              console.log('not found');
+              return;
+            }
+          }
+        });
+        return i;
+      }
+    </script>
+  </body>
+</html>
