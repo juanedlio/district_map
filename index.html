@@ -75,32 +75,7 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=API-KEY-GOES-HERE&libraries=places&callback=initAutocomplete" async defer></script>
 
     <script>
-      let display = {
-        school: document.getElementById('school_name'),
-        phone: document.getElementById('school_number'),
-        address: document.getElementById('school_address'),
-      }
-      var html;
-      // Listen for "Check Location" button
-      document.getElementById('submit').addEventListener('click', function() {
-        var address = {
-          'num' : Number(document.getElementById('street_number').value),
-          'street' :  document.getElementById('route').value,
-          'city' : document.getElementById('locality').value,
-          'zip' : document.getElementById('postal_code').value,
-          'grade' : document.getElementById('grade').value
-        }
-        let assignedSchool = checkAddress(address, boundaries, schools);
-        console.log(assignedSchool);
-        if(assignedSchool != -1){
-          display.school.innerHTML = assignedSchool.name;
-          display.phone.innerHTML = assignedSchool.phone;
-          display.address.innerHTML = assignedSchool.address;
-        } else {
-          html = 'Sorry, no results could be returned';
-        }
-      });
-
+      // Initiate Google API
       var placeSearch, autocomplete;
 
       var componentForm = {
@@ -162,6 +137,35 @@
           });
         }
       }
+
+      let display = {
+        school: document.getElementById('school_name'),
+        phone: document.getElementById('school_number'),
+        address: document.getElementById('school_address'),
+      }
+      var html;
+
+      // --- END GOOGLE CODE --- //
+
+      // Listen for "Check Location" button
+      document.getElementById('submit').addEventListener('click', function() {
+        var address = {
+          'num' : Number(document.getElementById('street_number').value),
+          'street' :  document.getElementById('route').value,
+          'city' : document.getElementById('locality').value,
+          'zip' : document.getElementById('postal_code').value,
+          'grade' : document.getElementById('grade').value
+        }
+        let assignedSchool = checkAddress(address, boundaries, schools);
+        console.log(assignedSchool);
+        if(assignedSchool != -1){
+          display.school.innerHTML = assignedSchool.name;
+          display.phone.innerHTML = assignedSchool.phone;
+          display.address.innerHTML = assignedSchool.address;
+        } else {
+          html = 'Sorry, no results could be returned';
+        }
+      });
 
       // // Checks to see what school the address would be assigned to and displays results
       function checkAddress(address, boundaries, schools) {
