@@ -4,78 +4,82 @@
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
     <title>Address Checker</title>
-    <style>
-      html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
-      #location {
-        width: 200px;
-      }
-
-      #address {
-        display: none;
-      }
-    </style>
+    <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <div>
-      This is a proof of concept based which checks if an address correlates with an array of andress ranges instead of checking if it falls within a boundary on Google Maps. The box below will tell you what schools in Beverly Hills your children would be assigned to. Results will appear in the console.
+    <div id="form_wrapper">
+      <div id="instructions">
+        Please enter your home address and select a grade level to see what school your child is assigned to. Results will appear below.
+      </div>
+      <input type="text" id="location"></input>
+      Select Grade: <select id="grade">
+        <option value="k">K</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+      </select>
+
+
+      <div id="address_table">
+        <div class="form-row">
+          <span class="label">Street address</span>
+          <span class="slimField"><input class="field" id="street_number" disabled="true"/></span>
+          <span class="wideField" colspan="2"><input class="field" id="route" disabled="true"/></span>
+        </div>
+        <div class="form-row">
+          <span class="label">City</span>
+          <span class="wideField" colspan="3"><input class="field" id="locality" disabled="true"/></span>
+        </div>
+        <div class="form-row">
+          <span class="label">State</span>
+          <span class="slimField"><input class="field" id="administrative_area_level_1" disabled="true"/></span>
+          <span class="label">Zip code</span>
+          <span class="wideField"><input class="field" id="postal_code" disabled="true"/></span>
+        </div>
+        <div class="form-row hidden">
+          <span class="label">Country</span>
+          <span class="wideField" colspan="3"><input class="field" id="country" disabled="true"/></span>
+        </div>
+      </div>
+
+      <input type="button" id="submit" value="Check Location"></input>
+
+
+      <div id="results">
+        <ul>
+          <li>
+            School: <span id="school_name">
+          </li>
+          <li>
+            Phone Number: <span id="school_number">
+          </li>
+          <li>
+            Address: <span id="school_address">
+          </li>
+        </ul>
+      </div>
+      <div id="map"></div>
     </div>
-    <input type="text" id="location"></input>
-    Select Grade: <select id="grade">
-      <option value="k">K</option>
-      <option value="1">1</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5</option>
-      <option value="6">6</option>
-      <option value="7">7</option>
-      <option value="8">8</option>
-      <option value="9">9</option>
-      <option value="10">10</option>
-      <option value="11">11</option>
-      <option value="12">12</option>
-    </select>
-
-
-    <table id="address_table">
-      <tr>
-        <td class="label">Street address</td>
-        <td class="slimField"><input class="field" id="street_number" disabled="true"/></td>
-        <td class="wideField" colspan="2"><input class="field" id="route" disabled="true"/></td>
-      </tr>
-      <tr>
-        <td class="label">City</td>
-        <td class="wideField" colspan="3"><input class="field" id="locality" disabled="true"/></td>
-      </tr>
-      <tr>
-        <td class="label">State</td>
-        <td class="slimField"><input class="field" id="administrative_area_level_1" disabled="true"/></td>
-        <td class="label">Zip code</td>
-        <td class="wideField"><input class="field" id="postal_code" disabled="true"/></td>
-      </tr>
-      <tr>
-        <td class="label">Country</td>
-        <td class="wideField" colspan="3"><input class="field" id="country" disabled="true"/></td>
-      </tr>
-    </table>
-
-    <input type="button" id="submit" value="Check Location"></input>
-
-
-    <div id="results">
-    </div>
-    <div id="map"></div>
     <!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAf2xUELY06TyIxIK8I-atfPDxLE5dAn88&libraries=places"></script> -->
     <script type="text/javascript" src="js/schools.js"></script>
     <script type="text/javascript" src="js/boundaries.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=API-KEY-GOES-HERE&libraries=places&callback=initAutocomplete" async defer></script>
 
     <script>
-      let display = document.getElementById('results');
+      let display = {
+        school: document.getElementById('school_name'),
+        phone: document.getElementById('school_number'),
+        address: document.getElementById('school_address'),
+      }
       var html;
       // Listen for "Check Location" button
       document.getElementById('submit').addEventListener('click', function() {
@@ -89,11 +93,12 @@
         let assignedSchool = checkAddress(address, boundaries, schools);
         console.log(assignedSchool);
         if(assignedSchool != -1){
-          html = '<span id="school_name">' + assignedSchool.name + '</span><span id="school_phone">'+ assignedSchool.phone + '</span><span id="school_address">'+ assignedSchool.address + '</span>';
+          display.school.innerHTML = assignedSchool.name;
+          display.phone.innerHTML = assignedSchool.phone;
+          display.address.innerHTML = assignedSchool.address;
         } else {
           html = 'Sorry, no results could be returned';
         }
-        display.innerHTML = html;
       });
 
       var placeSearch, autocomplete;

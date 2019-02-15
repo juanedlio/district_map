@@ -1,0 +1,40 @@
+#form_wrapper {
+  width: 100%;
+  max-width: 600px;
+  #instructions {
+    padding: 10px;
+  }
+  #location {
+    width: 80%;
+    display: block;
+    margin-bottom: 5px;
+  }
+  #address_table {
+    max-width: 360px;
+
+    #street_number {
+      width: 20px;
+    }
+    #route {
+      width: 200px;
+    }
+    #administrative_area_level_1 {
+      width: 20px;
+    }
+  }
+
+  .form-row {
+    width: 100%;
+    padding: 5px 0;
+    display: flex;
+    // justify-content: space-around;
+    align-content: flex-start;
+    span {
+      padding-right: 3px;
+    }
+  }
+
+  .hidden {
+    display: none;
+  }
+}

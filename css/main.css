@@ -1,0 +1,45 @@
+#form_wrapper {
+  width: 100%;
+  max-width: 600px;
+}
+
+#form_wrapper #instructions {
+  padding: 10px;
+}
+
+#form_wrapper #location {
+  width: 80%;
+  display: block;
+  margin-bottom: 5px;
+}
+
+#form_wrapper #address_table {
+  max-width: 360px;
+}
+
+#form_wrapper #address_table #street_number {
+  width: 20px;
+}
+
+#form_wrapper #address_table #route {
+  width: 200px;
+}
+
+#form_wrapper #address_table #administrative_area_level_1 {
+  width: 20px;
+}
+
+#form_wrapper .form-row {
+  width: 100%;
+  padding: 5px 0;
+  display: flex;
+  align-content: flex-start;
+}
+
+#form_wrapper .form-row span {
+  padding-right: 3px;
+}
+
+#form_wrapper .hidden {
+  display: none;
+}
