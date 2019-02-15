@@ -1,21 +1,7 @@
-var highSchools = [
-  { 'name' : 'South Austin HS', 'phone' : '(512)555-2002', 'id' : 0},
-  { 'name' : 'North Austin HS', 'phone' : '(512)555-2001', 'id' : 1}
+const schools = [
+  { 'name' : 'Beverly Hills High School', 'phone' : '(310) 551-5100 Ext. 8000', 'address' : '241 Moreno Drive Beverly Hills, CA 90212', 'id' : 5},
+  { 'name' : 'Beverly Vista School', 'phone' : '(310) 229-3665', 'address' : '200 South Elm Drive Beverly Hills, CA 90212', 'id' : 1},
+  { 'name' : 'El Rodeo School', 'phone' : '(310) 229-3670', 'address' : '605 Whittier Drive Beverly Hills, CA 90210', 'id' : 2},
+  { 'name' : 'Horace Mann School', 'phone' : '(310) 551-5104', 'address' : '8701 Charleville Blvd. Beverly Hills, CA 90211', 'id' : 4},
+  { 'name' : 'Hawthorne School', 'phone' : '(512)555-0003', 'address' : '624 North Rexford Drive Beverly Hills, CA 90210', 'id' : 3}
 ];
-
-var middleSchools = [
-  { 'name' : 'NorthWest Austin MS', 'phone' : '(512)555-1001', 'id' : 0},
-  { 'name' : 'NorthEast Austin MS', 'phone' : '(512)555-1002', 'id' : 1},
-  { 'name' : 'SouthEast Austin MS', 'phone' : '(512)555-1004', 'id' : 2},
-  { 'name' : 'SouthWest Austin MS', 'phone' : '(512)555-1003', 'id' : 3}
-];
-
-var elementarySchools = [
-  { 'name' : 'South Austin ES', 'phone' : '(512)555-0001', 'id' : 0},
-  { 'name' : 'West Austin ES', 'phone' : '(512)555-0003', 'id' : 1},
-  { 'name' : 'North Austin ES', 'phone' : '(512)555-0002', 'id' : 2},
-  { 'name' : 'East Austin ES', 'phone' : '(512)555-0004', 'id' : 3},
-  { 'name' : 'Central Austin ES', 'phone' : '(512)555-0005', 'id' : 4}
-];
-
-var schools = [highSchools, middleSchools, elementarySchools];
