@@ -1,12 +1,12 @@
 # District Map
 Tool to allow parents find child's assigned school based on address
 
-##Setup
+## Setup
 1) Clone the repo
 2) Add Google Maps API key to line 75 in `index.html`.
 
-##Running
+## Running
 Enter address into top address bar. The form below it will automatically be populated. Click `Check Location` and the results will be displayed beneath the address form.
 
-##TODO:
+## TODO:
 - Create pleasant interface for users to enter their information
