@@ -57,13 +57,16 @@
       <div id="results">
         <ul>
           <li>
-            School: <span id="school_name">
+            School: <span id="school_name"></span>
           </li>
           <li>
-            Phone Number: <span id="school_number">
+            Phone Number: <span id="school_number"><span>
           </li>
           <li>
-            Address: <span id="school_address">
+            Address: <span id="school_address"><span>
+          </li>
+          <li>
+            <span id="no_results"></span>
           </li>
         </ul>
       </div>
@@ -72,7 +75,7 @@
     <!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAf2xUELY06TyIxIK8I-atfPDxLE5dAn88&libraries=places"></script> -->
     <script type="text/javascript" src="js/schools.js"></script>
     <script type="text/javascript" src="js/boundaries.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=API-KEY-GOES-HERE&libraries=places&callback=initAutocomplete" async defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=API_KEY_GOES_HERE&libraries=places&callback=initAutocomplete" async defer></script>
 
     <script>
       // Initiate Google API
@@ -92,10 +95,6 @@
         // geographical location types.
         autocomplete = new google.maps.places.Autocomplete(
             document.getElementById('location'), {types: ['geocode']});
-
-        // Avoid paying for data that you don't need by restricting the set of
-        // place fields that are returned to just the address components.
-        // autocomplete.setFields('address_components');
 
         // When the user selects an address from the drop-down, populate the
         // address fields in the form.
@@ -142,6 +141,7 @@
         school: document.getElementById('school_name'),
         phone: document.getElementById('school_number'),
         address: document.getElementById('school_address'),
+        error: document.getElementById('no_results')
       }
       var html;
 
@@ -163,7 +163,7 @@
           display.phone.innerHTML = assignedSchool.phone;
           display.address.innerHTML = assignedSchool.address;
         } else {
-          html = 'Sorry, no results could be returned';
+          display.error.innerHTML = 'Sorry, no results could be returned';
         }
       });
 
