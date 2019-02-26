@@ -43,3 +43,16 @@
 #form_wrapper .hidden {
   display: none;
 }
+
+#return_list {
+  padding: 0;
+}
+
+#return_list li {
+  list-style: none;
+}
+
+#return_list #no_results {
+  color: red;
+  font-style: italic;
+}

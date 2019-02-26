@@ -5,77 +5,112 @@
     <meta charset="utf-8">
     <title>Address Checker</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
   </head>
   <body>
-    <div id="form_wrapper">
-      <div id="instructions">
-        Please enter your home address and select a grade level to see what school your child is assigned to. Results will appear below.
+
+  <div class="container">
+    <div id="signupbox" style=" margin-top:50px" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+      <div class="panel panel-info">
+        <div class="panel-heading">
+          <div class="panel-title">Find a School</div>
+        </div>
+        <div class="panel-body">
+          <form id="address_table">
+            <div class="form-row">
+              <div class="form-group col-md-10">
+                <label for="validationCustom03">Enter Address</label>
+                <span class="slimField"><input class="form-control" id="location"/></span>
+              </div>
+            </div>
+            <div class="form-row align-items-center" style="margin-bottom:20px">
+              <div class="col-auto my-1">
+                <label class="mr-sm-2" for="inlineFormCustomSelect">Grade</label>
+                <select class="custom-select mr-sm-2" id="grade">
+                <option value="k">K</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+              </select>
+            </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-10">
+                <label for="validationCustom03">Street address</label>
+                <span class="slimField"><input class="form-control" id="street_number" disabled="true"/></span>
+                <span class="wideField" colspan="2"><input class="form-control" id="route" disabled="true"/></span>
+              </div>
+              <div class="form-group col-md-6">
+                <label for="validationCustom03">City</label>
+                <span class="wideField" colspan="3"><input class="form-control" id="locality" disabled="true"/></span>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="validationCustom03">State</label>
+                <span class="slimField"><input class="form-control" id="administrative_area_level_1" disabled="true"/></span>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="validationCustom03">Zip code</label>
+                <span class="wideField"><input class="form-control" id="postal_code" disabled="true"/></span>
+              </div>
+              <div class="form-row hidden">
+                <span class="label">Country</span>
+                <span class="wideField" colspan="3"><input class="field" id="country" disabled="true"/></span>
+              </div>
+            </div>
+          </form>
+          <form>
+
+            <div class="col-auto my-1" style="margin-bottom20px;padding-left:0;">
+              <button type="button" class="btn btn-primary" id="submit" style="margin-top:20px;margin-bottom:20px;">Check Location</button>
+            </div>
+
+            <div class="col-auto my-1">
+              <div class="custom-control custom-checkbox mr-sm-2">
+                <input type="checkbox" class="custom-control-input" id="customControlAutosizing">
+              </div>
+            </div>
+
+            <div id="results">
+              <div class="form-row">
+                <ul id="return_list">
+                  <li>
+                    <label style="font-weight:400">School:</label>
+                    <span class="slimField" id="school_name" for="validationCustom03"></span>
+                  </li>
+                  <li>
+                    <label style="font-weight:400">Phone Number:</label>
+                    <span class="wideField" id="school_number"></span>
+                  </li>
+                  <label style="font-weight:400">Address:</label>
+                  <span class="wideField" id="school_address"></span>
+                  <li>
+                    <span class="wideField" id="no_results"></span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div id="map"></div>
+        </div>
       </div>
-      <input type="text" id="location"></input>
-      Select Grade: <select id="grade">
-        <option value="k">K</option>
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-        <option value="6">6</option>
-        <option value="7">7</option>
-        <option value="8">8</option>
-        <option value="9">9</option>
-        <option value="10">10</option>
-        <option value="11">11</option>
-        <option value="12">12</option>
-      </select>
-
-
-      <div id="address_table">
-        <div class="form-row">
-          <span class="label">Street address</span>
-          <span class="slimField"><input class="field" id="street_number" disabled="true"/></span>
-          <span class="wideField" colspan="2"><input class="field" id="route" disabled="true"/></span>
-        </div>
-        <div class="form-row">
-          <span class="label">City</span>
-          <span class="wideField" colspan="3"><input class="field" id="locality" disabled="true"/></span>
-        </div>
-        <div class="form-row">
-          <span class="label">State</span>
-          <span class="slimField"><input class="field" id="administrative_area_level_1" disabled="true"/></span>
-          <span class="label">Zip code</span>
-          <span class="wideField"><input class="field" id="postal_code" disabled="true"/></span>
-        </div>
-        <div class="form-row hidden">
-          <span class="label">Country</span>
-          <span class="wideField" colspan="3"><input class="field" id="country" disabled="true"/></span>
-        </div>
-      </div>
-
-      <input type="button" id="submit" value="Check Location"></input>
-
-
-      <div id="results">
-        <ul>
-          <li>
-            School: <span id="school_name"></span>
-          </li>
-          <li>
-            Phone Number: <span id="school_number"><span>
-          </li>
-          <li>
-            Address: <span id="school_address"><span>
-          </li>
-          <li>
-            <span id="no_results"></span>
-          </li>
-        </ul>
-      </div>
-      <div id="map"></div>
     </div>
+  </div>
+
+  </form>
     <!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAf2xUELY06TyIxIK8I-atfPDxLE5dAn88&libraries=places"></script> -->
     <script type="text/javascript" src="js/schools.js"></script>
     <script type="text/javascript" src="js/boundaries.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=API_KEY_GOES_HERE&libraries=places&callback=initAutocomplete" async defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAf2xUELY06TyIxIK8I-atfPDxLE5dAn88&libraries=places&callback=initAutocomplete" async defer></script>
 
     <script>
       // Initiate Google API

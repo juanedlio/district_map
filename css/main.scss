@@ -22,7 +22,6 @@
       width: 20px;
     }
   }
-
   .form-row {
     width: 100%;
     padding: 5px 0;
@@ -36,5 +35,15 @@
 
   .hidden {
     display: none;
+  }
+}
+
+#return_list {
+  padding: 0;
+  li { list-style: none; }
+
+  #no_results {
+    color: red;
+    font-style: italic;
   }
 }
