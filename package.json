@@ -1,0 +1,23 @@
+{
+  "name": "map",
+  "version": "1.0.0",
+  "description": "School Finder Application",
+  "main": "index.html",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jlamoreaux/district-map.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlamoreaux/district-map/issues"
+  },
+  "homepage": "https://github.com/jlamoreaux/district-map#readme"
+}
