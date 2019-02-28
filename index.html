@@ -213,7 +213,7 @@
         var len = boundaries.length;
         var result;
         boundaries.forEach(function(boundary){
-          if(address.zip == boundary.zip){
+          if(address.zip == boundary.zip || 90210 <= address.zip >= 90212 ){
             if(address.street == boundary.street || address.street == (`${boundary.dir} ${boundary.street}`)){
               if(boundary.low <= address.num && boundary.high >= address.num){
                 result = schools.filter(school => school.id == boundary[address.grade])[0];
