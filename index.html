@@ -48,20 +48,20 @@
             <div class="form-row">
               <div class="form-group col-md-10">
                 <label for="validationCustom03">Street address</label>
-                <span class="slimField"><input class="form-control" id="street_number" disabled="true"/></span>
-                <span class="wideField" colspan="2"><input class="form-control" id="route" disabled="true"/></span>
+                <span class="slimField"><input class="form-control" id="street_number"/></span>
+                <span class="wideField" colspan="2"><input class="form-control" id="route" /></span>
               </div>
               <div class="form-group col-md-6">
                 <label for="validationCustom03">City</label>
-                <span class="wideField" colspan="3"><input class="form-control" id="locality" disabled="true"/></span>
+                <span class="wideField" colspan="3"><input class="form-control" id="locality" /></span>
               </div>
               <div class="col-md-3 mb-3">
                 <label for="validationCustom03">State</label>
-                <span class="slimField"><input class="form-control" id="administrative_area_level_1" disabled="true"/></span>
+                <span class="slimField"><input class="form-control" id="administrative_area_level_1" /></span>
               </div>
               <div class="col-md-3 mb-3">
                 <label for="validationCustom03">Zip code</label>
-                <span class="wideField"><input class="form-control" id="postal_code" disabled="true"/></span>
+                <span class="wideField"><input class="form-control" id="postal_code" /></span>
               </div>
               <div class="form-row hidden">
                 <span class="label">Country</span>
@@ -183,6 +183,11 @@
 
       // Listen for "Check Location" button
       document.getElementById('submit').addEventListener('click', function() {
+        display.school.innerHTML = '';
+        display.phone.innerHTML = '';
+        display.address.innerHTML = '';
+        display.error.innerHTML = '';
+        
         var address = {
           'num' : Number(document.getElementById('street_number').value),
           'street' :  document.getElementById('route').value,
@@ -193,6 +198,7 @@
         let assignedSchool = checkAddress(address, boundaries, schools);
 
         if(assignedSchool != -1){
+          console.log(assignedSchool);
           display.school.innerHTML = assignedSchool.name;
           display.phone.innerHTML = assignedSchool.phone;
           display.address.innerHTML = assignedSchool.address;
@@ -203,15 +209,18 @@
 
       // // Checks to see what school the address would be assigned to and displays results
       function checkAddress(address, boundaries, schools) {
+        console.log(address);
         let answer = document.getElementById('results');
         let i = 0;
         var len = boundaries.length;
         var result;
         boundaries.forEach(function(boundary){
           if(address.zip == boundary.zip){
-            if(address.street == boundary.street){
+            if(address.street == boundary.street || address.street == (`${boundary.dir} ${boundary.street}`)){
               if(boundary.low <= address.num && boundary.high >= address.num){
                 result = schools.filter(school => school.id == boundary[address.grade])[0];
+                console.log(result);
+                return result;
               }
             }
           } else {
@@ -221,6 +230,7 @@
             }
           }
         });
+        console.log(result);
         return result;
       }
     </script>
