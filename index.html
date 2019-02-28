@@ -202,7 +202,7 @@
           display.phone.innerHTML = assignedSchool.phone;
           display.address.innerHTML = assignedSchool.address;
         } else {
-          display.error.innerHTML = 'Address is out of district';
+          display.error.innerHTML = 'Address is out of district. Please make sure you are using a complete street address within the Beverly Hills School District';
         }
       });
 
@@ -218,7 +218,11 @@
               if(boundary.low <= address.num && boundary.high >= address.num){
                 result = schools.filter(school => school.id == boundary[address.grade])[0];
                 return result;
+              } else {
+                return result = -1;
               }
+            } else {
+              return result = -1;
             }
           } else {
             i++;
