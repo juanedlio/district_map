@@ -107,7 +107,6 @@
   </div>
 
   </form>
-    <!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAf2xUELY06TyIxIK8I-atfPDxLE5dAn88&libraries=places"></script> -->
     <script type="text/javascript" src="js/schools.js"></script>
     <script type="text/javascript" src="js/boundaries.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAf2xUELY06TyIxIK8I-atfPDxLE5dAn88&libraries=places&callback=initAutocomplete" async defer></script>
@@ -192,7 +191,7 @@
           'grade' : document.getElementById('grade').value
         }
         let assignedSchool = checkAddress(address, boundaries, schools);
-        console.log(assignedSchool);
+
         if(assignedSchool != -1){
           display.school.innerHTML = assignedSchool.name;
           display.phone.innerHTML = assignedSchool.phone;
@@ -218,7 +217,6 @@
           } else {
             i++;
             if(i == len){
-              console.log('no school not found in your area');
               result = -1;
             }
           }
