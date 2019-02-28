@@ -187,7 +187,7 @@
         display.phone.innerHTML = '';
         display.address.innerHTML = '';
         display.error.innerHTML = '';
-        
+
         var address = {
           'num' : Number(document.getElementById('street_number').value),
           'street' :  document.getElementById('route').value,
@@ -198,7 +198,6 @@
         let assignedSchool = checkAddress(address, boundaries, schools);
 
         if(assignedSchool != -1){
-          console.log(assignedSchool);
           display.school.innerHTML = assignedSchool.name;
           display.phone.innerHTML = assignedSchool.phone;
           display.address.innerHTML = assignedSchool.address;
@@ -209,7 +208,6 @@
 
       // // Checks to see what school the address would be assigned to and displays results
       function checkAddress(address, boundaries, schools) {
-        console.log(address);
         let answer = document.getElementById('results');
         let i = 0;
         var len = boundaries.length;
@@ -219,7 +217,6 @@
             if(address.street == boundary.street || address.street == (`${boundary.dir} ${boundary.street}`)){
               if(boundary.low <= address.num && boundary.high >= address.num){
                 result = schools.filter(school => school.id == boundary[address.grade])[0];
-                console.log(result);
                 return result;
               }
             }
@@ -230,7 +227,6 @@
             }
           }
         });
-        console.log(result);
         return result;
       }
     </script>
