@@ -198,7 +198,7 @@
         let assignedSchool = checkAddress(address, boundaries, schools);
 
         if(assignedSchool != -1){
-          display.school.innerHTML = assignedSchool.name;
+          display.school.innerHTML = assignedSchool['name'];
           display.phone.innerHTML = assignedSchool.phone;
           display.address.innerHTML = assignedSchool.address;
         } else {
@@ -211,23 +211,14 @@
         let answer = document.getElementById('results');
         let i = 0;
         var len = boundaries.length;
-        var result;
+        var result = -1;
         boundaries.forEach(function(boundary){
           if(address.zip == boundary.zip || 90210 <= address.zip >= 90212 ){
             if(address.street == boundary.street || address.street == (`${boundary.dir} ${boundary.street}`)){
               if(boundary.low <= address.num && boundary.high >= address.num){
                 result = schools.filter(school => school.id == boundary[address.grade])[0];
                 return result;
-              } else {
-                return result = -1;
               }
-            } else {
-              return result = -1;
-            }
-          } else {
-            i++;
-            if(i == len){
-              result = -1;
             }
           }
         });
