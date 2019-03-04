@@ -209,8 +209,8 @@
           display.address.innerHTML = assignedSchool.address;
         } else {
           display.error.innerHTML = 'Address is out of district. Please make sure you are using a complete street address within the Beverly Hills School District';
+          document.getElementById('submit').disabled = true;
         }
-        document.getElementById('submit').disabled = true;
       });
 
       // // Checks to see what school the address would be assigned to and displays results
