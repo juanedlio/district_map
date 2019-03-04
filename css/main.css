@@ -3,10 +3,6 @@
   max-width: 600px;
 }
 
-#form_wrapper #instructions {
-  padding: 10px;
-}
-
 #form_wrapper #location {
   width: 80%;
   display: block;
@@ -42,6 +38,10 @@
 
 #form_wrapper .hidden {
   display: none;
+}
+
+#instructions {
+  padding-bottom: 10px;
 }
 
 #return_list {

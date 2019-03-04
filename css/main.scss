@@ -1,9 +1,6 @@
 #form_wrapper {
   width: 100%;
   max-width: 600px;
-  #instructions {
-    padding: 10px;
-  }
   #location {
     width: 80%;
     display: block;
@@ -36,6 +33,10 @@
   .hidden {
     display: none;
   }
+}
+
+#instructions {
+  padding-bottom: 10px;
 }
 
 #return_list {
