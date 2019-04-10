@@ -12,3 +12,4 @@ Using the tool is simple. Begin entering address into search bar and choose an a
 
 ## TODO:
 - Create DB for school information to be updated.
+- Utilize Edlio API to call school information(Name, Address, Phone Number, Logo?)
