@@ -1,11 +1,16 @@
 {
   "name": "map",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "School Finder Application",
-  "main": "index.html",
+  "main": "app.js",
   "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "es6-promisify": "^6.1.1",
     "express": "^4.16.4",
-    "heroku": "^7.22.1"
+    "heroku": "^7.22.1",
+    "nodemon": "^2.0.3",
+    "pug": "^2.0.4"
   },
   "devDependencies": {},
   "scripts": {

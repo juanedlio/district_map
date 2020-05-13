@@ -39,13 +39,44 @@
   padding-bottom: 10px;
 }
 
-#return_list {
-  padding: 0;
-  font-weight: 700;
-  li { list-style: none; }
+#results {
+  // padding-top: 30px;
 
+  .banner {
+    font-size: 1.2em;
+    margin: 10px;
+    font-weight: 800;
+  }
+
+  .form-row {
+    padding-top: 20px;
+  }
+
+  #school_info {
+    display: flex;
+    .school-image {
+      max-width: 28%;
+    }
+  }
+
+  #return_list {
+    padding: 0 10px;
+    font-weight: 700;
+    // margin: 0;
+    li { list-style: none; }
+
+    .results-label {
+      font-weight: 400;
+      padding-right: 10px;
+    }
+
+  }
   #no_results {
     color: red;
     font-style: italic;
   }
+
+
 }
+
+

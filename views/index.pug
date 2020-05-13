@@ -1,0 +1,88 @@
+doctype html
+html
+    head
+        meta(charset="utf-8")
+        meta(name="viewport" content="initial-scale=1.0, user-scalable=no")
+        title=title
+        link(rel="stylesheet" href="css/main.css")
+        link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous")
+        link(link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css")
+
+    body
+        .container
+            div(id="signupbox" style=" margin-top:50px" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2")
+                .panel.panel-info
+                    .panel-heading
+                        h1.panel-title Find a School
+                    .panel-body
+                        #instructions Please begin typing address in the box below and select an option from the dropdown list.
+                        form(action="/" method="POST")#address_table
+                            //- .form-row
+                                .form-group.col-md-10
+                            label(for="location") Enter Address
+                            span.slimField
+                                input.form-control(type="text" id="location" name="location" )
+                            .form-row(class="align-items-center" style="margin-bottom: 20px")
+                                .col-auto(class="my-1")
+                                    label.mr-sm-2(for="inlineFormCustomSelect") Grade
+                                    select#grade(class="custom-select mr-sm-2" name="grade")
+                                        - const grades = ["K", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
+                                        for grade in grades
+                                            option(value=grade) #{grade}
+                            .form-row.hidden(id="address_segments")
+                                .form-group.col-md-10
+                                    label(for="street_number") Street address
+                                    span.slimField
+                                        input.form-control(type="text" value="" id="street_number" name="street_number" disabled)
+                                    span.wideField(colspan="2")
+                                        input.form-control(type="text" value="" id="route" name="route" disabled)
+                                .form-group.col-md-6
+                                    label(for="city") City
+                                    span.wideField(colspan="3")
+                                        input.form-control(type="text" value="" id="locality" name="city" disabled)
+                                .col-md-3.mb-3
+                                    label(for="state") State
+                                    span.slimField
+                                        input.form-control(type="text" value="" id="administrative_area_level_1" name="state" disabled)
+                                .col-md-3.mb-3
+                                    label(for="postal_code") Zip code
+                                    span.wideField
+                                        input.form-control(type="text" value="" id="postal_code" name="postal_code" disabled)
+                                .form-row.hidden
+                                    label(for="country") Country
+                                    span.wideField(colspan="3")
+                                        input.field(type="text" value="" id="country" name="country" disabled)
+                            .col-auto.my-1(style="margin-bottom: 20px; padding-left: 0;")
+                                input(type="submit" class="btn btn-primary" id="submit" disabled stlye="margin-top:20px; margin-bottom:20px;" value="Check Location")
+
+
+                        form
+                            .col-auto.my-1
+                                .custom-control.custom-checkbox.mr-sm-2
+                                    input.custom-control-input(type="checkbox" id="customControlAutosizing")
+                            #results
+                                .form-row
+                                    if school != -1 && school != 0
+                                        span.banner(id="yes_results") RESULTS FOUND:
+                                        #school_info
+                                            if school.logo
+                                                img(src=`${school.logo}` class="school-image")
+                                            ul#return_list
+                                                - const fields = [ { name: "School", id: "school_name", content: school.name }, { name: "Phone Number", id: "school_number", content: school.location.schoolPhone}, { name: "Address", id: "school_address", content: `${school.location.schoolAddress} ${school.location.schoolCity}, ${school.location.schoolState} ${school.location.schoolZip}`}]
+                                                each field in fields
+                                                    li
+                                                        label.results-label #{field.name}: 
+                                                        span.wideField(id=field.id)  #{field.content}
+                                                if school.www
+                                                    li
+                                                        label.results-label Website:
+                                                        a(href=`http://${school.www}`) http://#{school.www}
+
+                                    if school == -1
+                                        span.banner(id="no_results") NO RESULTS FOUND
+                            #map
+    footer
+        //- script(src='/js/boundaries.js')
+        //- script(src='/js/schools.js')
+        script(src='/js/autocomplete.js')
+        script(src=`https://maps.googleapis.com/maps/api/js?key=${process.env.API_KEY}&libraries=places&callback=initAutocomplete` async defer)
