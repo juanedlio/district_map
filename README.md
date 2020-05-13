@@ -36,7 +36,7 @@ Boundaries use the following format:
     "10": Number,
     "11": Number,
     "12": Number
-    }
+}
 ```
 
 ## TODO:
