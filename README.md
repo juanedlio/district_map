@@ -1,5 +1,5 @@
 # District Map
-Tool to allow parents find child's assigned school based on address
+Tool to allow parents find child's assigned school based on address.
 Utilizes Edlio API to call school information(Name, Address, Phone Number, Logo)
 
 ## Setup
