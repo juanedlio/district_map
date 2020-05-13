@@ -24,12 +24,10 @@ exports.homePage = async (req, res) => {
 exports.checkAddress = (req, res) => {
     const schoolData = schools.JSON;
     const address = req.body;
-    console.log(address);
     let results = findSchool(address, boundaries, schoolData.schools);
     let school;
 
     if (results != -1) {
-        console.log('is good');
         // Only pass along essential information
         school = {
             name: results.name,

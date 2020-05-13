@@ -1,5 +1,6 @@
 # District Map
 Tool to allow parents find child's assigned school based on address
+Utilizes Edlio API to call school information(Name, Address, Phone Number, Logo)
 
 ## Setup
 1) Clone the repo
@@ -12,4 +13,4 @@ Using the tool is simple. Begin entering address into search bar and choose an a
 
 ## TODO:
 - Create DB for school information to be updated.
-- Utilize Edlio API to call school information(Name, Address, Phone Number, Logo?)
+

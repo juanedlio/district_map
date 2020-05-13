@@ -8,12 +8,25 @@ const componentForm = {
     postal_code: 'short_name'
 };
 
+const display = {
+  school: document.getElementById("school_name"),
+  phone: document.getElementById("school_number"),
+  address: document.getElementById("school_address"),
+  error: document.getElementById("no_results"),
+};
+
 function initAutocomplete() {
     // Create the autocomplete object, restricting the search predictions to
     // geographical location types.
-    autocomplete = new google.maps.places.Autocomplete(
-        document.getElementById('location'), { types: ['geocode'] });
-
+    try {
+        autocomplete = new google.maps.places.Autocomplete(
+            document.getElementById("location"),
+            { types: ["geocode"] }
+        );
+    } catch (err) {
+        console.error("Can't connect: " + err);
+        disableForm(); 
+    };
     // When the user selects an address from the drop-down, populate the
     // address fields in the form.
     autocomplete.addListener('place_changed', fillInAddress);
@@ -47,7 +60,6 @@ function fillInAddress() {
     const place = autocomplete.getPlace();
 
     for (let component in componentForm) {
-        // document.getElementById(component).value = '';
         document.getElementById(component).disabled = false;
     }
 
@@ -86,9 +98,8 @@ function geolocate() {
     autocomplete.setBounds(circle.getBounds());
 }
 
-const display = {
-    school: document.getElementById('school_name'),
-    phone: document.getElementById('school_number'),
-    address: document.getElementById('school_address'),
-    error: document.getElementById('no_results')
+function disableForm() {
+    document.querySelector('#signupbox').innerHTML = `
+        <h2 class="alert" id="connection_error">Sorry, we seem to be having some trouble right now. Please try again after a few minutes.</h2>
+    `
 }
