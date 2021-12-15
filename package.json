@@ -4,7 +4,7 @@
   "description": "School Finder Application",
   "main": "app.js",
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^0.21.2",
     "dotenv": "^8.2.0",
     "es6-promisify": "^6.1.1",
     "express": "^4.16.4",
