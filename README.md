@@ -7,7 +7,7 @@ Utilizes Edlio API to call school information(Name, Address, Phone Number, Logo)
 2) Run `npm install` to ensure all the needed dependancies are installed.
 
 ## Running
-From terminal, run `node start`. Open browser to `localhost:5000`.
+From terminal, run `node start` or `npm start`. Open browser to `localhost:5000`.
 
 Using the tool is simple. Begin entering address into search bar and choose an autocomplete option. Choose grade level of child. Click `Check Location` and the results will be displayed beneath the address form.
 
@@ -23,6 +23,7 @@ Boundaries use the following format:
     "city": String, // City
     "zip": Number, // Zip Code
 /* Edlio school code representing the school each grade in this address block is assigned to */
+    "Transitional Kindergarten": Number,
     "k": Number,
     "1": Number,
     "2": Number,
@@ -41,4 +42,3 @@ Boundaries use the following format:
 
 ## TODO:
 - Create DB for school information to be updated.
-
