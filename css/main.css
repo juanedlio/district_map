@@ -86,6 +86,6 @@
   font-style: italic;
 }
 
-grade {
-  height: 75;
+.custom-select{
+  height: 30px!important;
 }
