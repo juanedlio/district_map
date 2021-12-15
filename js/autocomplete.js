@@ -25,7 +25,7 @@ function initAutocomplete() {
         );
     } catch (err) {
         console.error("Can't connect: " + err);
-        disableForm(); 
+        disableForm();
     };
     // When the user selects an address from the drop-down, populate the
     // address fields in the form.
@@ -41,7 +41,7 @@ function initAutocomplete() {
     autocomplete.setBounds(circle.getBounds());
 
     /*  Alternatively can be based on user location     */
-   
+
     // if (navigator.geolocation) {
     //     navigator.geolocation.getCurrentPosition(function (position) {
     //         var geolocation = {
