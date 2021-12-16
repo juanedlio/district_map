@@ -41,5 +41,3 @@ exports.checkAddress = (req, res) => {
     }
     res.render('index', { title: "School Finder", school, address});
 }
-
-

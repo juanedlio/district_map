@@ -139,7 +139,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -152,7 +152,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1500,
@@ -162,7 +162,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -175,7 +175,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 300,
@@ -185,7 +185,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -198,7 +198,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 500,
@@ -208,7 +208,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -221,7 +221,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 500,
@@ -231,7 +231,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -244,7 +244,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1700,
@@ -254,7 +254,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -267,7 +267,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1700,
@@ -277,7 +277,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -290,7 +290,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 500,
@@ -300,7 +300,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -313,7 +313,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 500,
@@ -323,7 +323,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -336,7 +336,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 400,
@@ -346,7 +346,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -359,7 +359,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 300,
@@ -369,7 +369,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -382,7 +382,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -392,7 +392,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -405,7 +405,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 900,
@@ -415,7 +415,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -428,7 +428,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1241,
@@ -438,7 +438,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -451,7 +451,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 9100,
@@ -461,7 +461,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -474,7 +474,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 500,
@@ -484,7 +484,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -497,7 +497,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 800,
@@ -507,7 +507,7 @@ const boundaries = [
     "oE": "E",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -520,7 +520,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 801,
@@ -530,7 +530,7 @@ const boundaries = [
     "oE": "O",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -543,7 +543,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1101,
@@ -553,7 +553,7 @@ const boundaries = [
     "oE": "O",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -566,7 +566,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1250,
@@ -576,7 +576,7 @@ const boundaries = [
     "oE": "E",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -589,7 +589,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1000,
@@ -599,7 +599,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -612,7 +612,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 600,
@@ -622,7 +622,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -635,7 +635,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 9100,
@@ -645,7 +645,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -658,7 +658,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1100,
@@ -668,7 +668,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -681,7 +681,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1100,
@@ -691,7 +691,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -704,7 +704,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 500,
@@ -714,7 +714,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -727,7 +727,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 500,
@@ -737,7 +737,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -750,7 +750,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 800,
@@ -760,7 +760,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -773,7 +773,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -783,7 +783,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -796,7 +796,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1300,
@@ -806,7 +806,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -819,7 +819,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1430,
@@ -829,7 +829,7 @@ const boundaries = [
     "oE": "E",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -842,7 +842,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1435,
@@ -852,7 +852,7 @@ const boundaries = [
     "oE": "O",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -865,7 +865,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1970,
@@ -875,7 +875,7 @@ const boundaries = [
     "oE": "E",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -888,7 +888,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 9100,
@@ -898,7 +898,7 @@ const boundaries = [
     "oE": "E",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -911,7 +911,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 9101,
@@ -921,7 +921,7 @@ const boundaries = [
     "oE": "O",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -934,7 +934,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1000,
@@ -944,7 +944,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -957,7 +957,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 400,
@@ -967,7 +967,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -980,7 +980,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 500,
@@ -990,7 +990,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -1003,7 +1003,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1200,
@@ -1013,7 +1013,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -1026,7 +1026,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 9567,
@@ -1036,7 +1036,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -1049,7 +1049,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 9300,
@@ -1059,7 +1059,7 @@ const boundaries = [
     "oE": "E",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -1072,7 +1072,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1000,
@@ -1082,7 +1082,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -1095,7 +1095,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1700,
@@ -1105,7 +1105,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -1118,7 +1118,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 400,
@@ -1128,7 +1128,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -1141,7 +1141,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 800,
@@ -1151,7 +1151,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -1164,7 +1164,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 600,
@@ -1174,7 +1174,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -1187,7 +1187,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1100,
@@ -1197,7 +1197,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -1210,7 +1210,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 600,
@@ -1220,7 +1220,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -1233,7 +1233,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -1243,7 +1243,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -1256,7 +1256,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 800,
@@ -1266,7 +1266,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -1279,7 +1279,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1000,
@@ -1289,7 +1289,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -1302,7 +1302,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -1312,7 +1312,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -1325,7 +1325,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 500,
@@ -1335,7 +1335,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -1348,7 +1348,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 900,
@@ -1358,7 +1358,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -1371,7 +1371,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 400,
@@ -1381,7 +1381,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -1394,7 +1394,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 400,
@@ -1404,7 +1404,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -1417,7 +1417,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1025,
@@ -1427,7 +1427,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -1440,7 +1440,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 417,
@@ -1450,7 +1450,7 @@ const boundaries = [
     "oE": "O",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -1463,7 +1463,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 330,
@@ -1473,7 +1473,7 @@ const boundaries = [
     "oE": "E",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -1486,7 +1486,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 355,
@@ -1496,7 +1496,7 @@ const boundaries = [
     "oE": "O",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -1509,7 +1509,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 400,
@@ -1519,7 +1519,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -1532,7 +1532,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 9800,
@@ -1542,7 +1542,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -1555,7 +1555,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1100,
@@ -1565,7 +1565,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -1578,7 +1578,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1000,
@@ -1588,7 +1588,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -1601,7 +1601,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 9100,
@@ -1611,7 +1611,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -1624,7 +1624,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 500,
@@ -1634,7 +1634,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -1647,7 +1647,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 600,
@@ -1657,7 +1657,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -1670,7 +1670,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 400,
@@ -1680,7 +1680,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -1693,7 +1693,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 200,
@@ -1703,7 +1703,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -1716,7 +1716,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 400,
@@ -1726,7 +1726,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -1739,7 +1739,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1000,
@@ -1749,7 +1749,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -1762,7 +1762,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 900,
@@ -1772,7 +1772,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -1785,7 +1785,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1700,
@@ -1795,7 +1795,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -1808,7 +1808,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1705,
@@ -1818,7 +1818,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -1831,7 +1831,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1710,
@@ -1841,7 +1841,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -1854,7 +1854,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1715,
@@ -1864,7 +1864,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -1877,7 +1877,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1720,
@@ -1887,7 +1887,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -1900,7 +1900,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1725,
@@ -1910,7 +1910,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -1923,7 +1923,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1735,
@@ -1933,7 +1933,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -1946,7 +1946,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1740,
@@ -1956,7 +1956,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -1969,7 +1969,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 800,
@@ -1979,7 +1979,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -1992,7 +1992,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 8300,
@@ -2002,7 +2002,7 @@ const boundaries = [
     "oE": "E",
     "city": "Beverly Hills",
     "zip": 90211,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -2015,7 +2015,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1000,
@@ -2025,7 +2025,7 @@ const boundaries = [
     "oE": "E",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -2038,7 +2038,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1001,
@@ -2048,7 +2048,7 @@ const boundaries = [
     "oE": "O",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -2061,7 +2061,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 900,
@@ -2071,7 +2071,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -2084,7 +2084,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 500,
@@ -2094,7 +2094,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -2107,7 +2107,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1150,
@@ -2117,7 +2117,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -2130,7 +2130,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 500,
@@ -2140,7 +2140,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -2153,7 +2153,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 400,
@@ -2163,7 +2163,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -2176,7 +2176,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 9800,
@@ -2186,7 +2186,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -2199,7 +2199,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1100,
@@ -2209,7 +2209,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -2222,7 +2222,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1200,
@@ -2232,7 +2232,7 @@ const boundaries = [
     "oE": "E",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -2245,7 +2245,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1201,
@@ -2255,7 +2255,7 @@ const boundaries = [
     "oE": "O",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -2268,7 +2268,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1200,
@@ -2278,7 +2278,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -2291,7 +2291,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -2301,7 +2301,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -2314,7 +2314,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -2324,7 +2324,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -2337,7 +2337,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1200,
@@ -2347,7 +2347,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -2360,7 +2360,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1000,
@@ -2370,7 +2370,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -2383,7 +2383,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1015,
@@ -2393,7 +2393,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -2406,7 +2406,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 10000,
@@ -2416,7 +2416,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -2429,7 +2429,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 10010,
@@ -2439,7 +2439,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -2452,7 +2452,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1200,
@@ -2462,7 +2462,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -2475,7 +2475,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 500,
@@ -2485,7 +2485,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -2498,7 +2498,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1000,
@@ -2508,7 +2508,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -2521,7 +2521,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 400,
@@ -2531,7 +2531,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -2544,7 +2544,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -2554,7 +2554,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -2567,7 +2567,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1100,
@@ -2577,7 +2577,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -2590,7 +2590,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 800,
@@ -2600,7 +2600,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -2613,7 +2613,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380, "Continuation School": 8380
+    "12": 301, "Continuation": 8380, "Continuation": 8380
   },
   {
     "low": 9470,
@@ -2623,7 +2623,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -2636,7 +2636,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 314,
@@ -2646,7 +2646,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -2659,7 +2659,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1000,
@@ -2669,7 +2669,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -2682,7 +2682,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 400,
@@ -2692,7 +2692,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -2705,7 +2705,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1068,
@@ -2715,7 +2715,7 @@ const boundaries = [
     "oE": "E",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -2728,7 +2728,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1100,
@@ -2738,7 +2738,7 @@ const boundaries = [
     "oE": "E",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -2751,7 +2751,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1100,
@@ -2761,7 +2761,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -2774,7 +2774,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -2784,7 +2784,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -2797,7 +2797,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1100,
@@ -2807,7 +2807,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,
+    "TK": 303,
     "k": 303,
     "1": 303,
     "2": 303,
@@ -2820,7 +2820,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1200,
@@ -2830,7 +2830,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -2842,7 +2842,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 800,
@@ -2852,7 +2852,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -2864,7 +2864,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 9340,
@@ -2874,7 +2874,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -2886,7 +2886,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 200,
@@ -2896,7 +2896,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -2908,7 +2908,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 500,
@@ -2918,7 +2918,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -2930,7 +2930,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 500,
@@ -2940,7 +2940,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -2952,7 +2952,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -2962,7 +2962,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -2974,7 +2974,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 500,
@@ -2984,7 +2984,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -2996,7 +2996,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 900,
@@ -3006,7 +3006,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -3018,7 +3018,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 317,
@@ -3028,7 +3028,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -3040,7 +3040,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 9600,
@@ -3050,7 +3050,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -3062,7 +3062,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 9600,
@@ -3072,7 +3072,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -3084,7 +3084,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 900,
@@ -3094,7 +3094,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -3106,7 +3106,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 317,
@@ -3116,7 +3116,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -3128,7 +3128,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1000,
@@ -3138,7 +3138,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -3150,7 +3150,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1200,
@@ -3160,7 +3160,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -3172,7 +3172,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1095,
@@ -3182,7 +3182,7 @@ const boundaries = [
     "oE": "",
     "city": "Los Angeles",
     "zip": 90035,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -3194,7 +3194,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -3204,7 +3204,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -3216,7 +3216,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1100,
@@ -3226,7 +3226,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -3238,7 +3238,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1100,
@@ -3248,7 +3248,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -3260,7 +3260,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -3270,7 +3270,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -3282,7 +3282,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 400,
@@ -3292,7 +3292,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -3304,7 +3304,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1000,
@@ -3314,7 +3314,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -3326,7 +3326,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1700,
@@ -3336,7 +3336,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -3348,7 +3348,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 9900,
@@ -3358,7 +3358,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -3370,7 +3370,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 400,
@@ -3380,7 +3380,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -3392,7 +3392,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 500,
@@ -3402,7 +3402,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -3414,7 +3414,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 400,
@@ -3424,7 +3424,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -3436,7 +3436,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -3446,7 +3446,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -3458,7 +3458,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -3468,7 +3468,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -3480,7 +3480,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1100,
@@ -3490,7 +3490,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -3502,7 +3502,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 11001,
@@ -3512,7 +3512,7 @@ const boundaries = [
     "oE": "O",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -3524,7 +3524,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 9100,
@@ -3534,7 +3534,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -3546,7 +3546,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1000,
@@ -3556,7 +3556,7 @@ const boundaries = [
     "oE": "E",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -3568,7 +3568,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1001,
@@ -3578,7 +3578,7 @@ const boundaries = [
     "oE": "O",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -3590,7 +3590,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1000,
@@ -3600,7 +3600,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -3612,7 +3612,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 400,
@@ -3622,7 +3622,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -3634,7 +3634,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 500,
@@ -3644,7 +3644,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -3656,7 +3656,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 800,
@@ -3666,7 +3666,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -3678,7 +3678,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -3688,7 +3688,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -3700,7 +3700,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1200,
@@ -3710,7 +3710,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -3722,7 +3722,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 500,
@@ -3732,7 +3732,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -3744,7 +3744,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1000,
@@ -3754,7 +3754,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -3766,7 +3766,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1300,
@@ -3776,7 +3776,7 @@ const boundaries = [
     "oE": "E",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -3788,7 +3788,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1301,
@@ -3798,7 +3798,7 @@ const boundaries = [
     "oE": "O",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -3810,7 +3810,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 10001,
@@ -3820,7 +3820,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -3832,7 +3832,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 10010,
@@ -3842,7 +3842,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -3854,7 +3854,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1000,
@@ -3864,7 +3864,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -3876,7 +3876,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 9288,
@@ -3886,7 +3886,7 @@ const boundaries = [
     "oE": "E",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -3898,7 +3898,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 9289,
@@ -3908,7 +3908,7 @@ const boundaries = [
     "oE": "O",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -3920,7 +3920,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1100,
@@ -3930,7 +3930,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -3942,7 +3942,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 9143,
@@ -3952,7 +3952,7 @@ const boundaries = [
     "oE": "O",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -3964,7 +3964,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 9148,
@@ -3974,7 +3974,7 @@ const boundaries = [
     "oE": "E",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -3986,7 +3986,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 9938,
@@ -3996,7 +3996,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -4008,7 +4008,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1000,
@@ -4018,7 +4018,7 @@ const boundaries = [
     "oE": "E",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -4030,7 +4030,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1101,
@@ -4040,7 +4040,7 @@ const boundaries = [
     "oE": "O",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -4052,7 +4052,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 600,
@@ -4062,7 +4062,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -4074,7 +4074,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1700,
@@ -4084,7 +4084,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -4096,7 +4096,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 300,
@@ -4106,7 +4106,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -4118,7 +4118,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 500,
@@ -4128,7 +4128,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -4140,7 +4140,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 500,
@@ -4150,7 +4150,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -4162,7 +4162,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 9500,
@@ -4172,7 +4172,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -4184,7 +4184,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 500,
@@ -4194,7 +4194,7 @@ const boundaries = [
     "oE": "E",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -4206,7 +4206,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 501,
@@ -4216,7 +4216,7 @@ const boundaries = [
     "oE": "O",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -4228,7 +4228,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 400,
@@ -4238,7 +4238,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -4250,7 +4250,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1000,
@@ -4260,7 +4260,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -4272,7 +4272,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 600,
@@ -4282,7 +4282,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -4294,7 +4294,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 600,
@@ -4304,7 +4304,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -4316,7 +4316,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 9600,
@@ -4326,7 +4326,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -4338,7 +4338,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1000,
@@ -4348,7 +4348,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -4360,7 +4360,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 9900,
@@ -4370,7 +4370,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 303,"k": 303,
+    "TK": 303,"k": 303,
     "1": 303,
     "2": 303,
     "3": 303,
@@ -4382,7 +4382,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -4392,7 +4392,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90211,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -4404,7 +4404,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -4414,7 +4414,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90211,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -4426,7 +4426,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -4436,7 +4436,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90211,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -4448,7 +4448,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -4458,7 +4458,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90211,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -4470,7 +4470,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 401,
@@ -4480,7 +4480,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -4492,7 +4492,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -4502,7 +4502,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -4514,7 +4514,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 400,
@@ -4524,7 +4524,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -4536,7 +4536,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 9360,
@@ -4546,7 +4546,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -4558,7 +4558,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 8800,
@@ -4568,7 +4568,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90211,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -4580,7 +4580,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 1142,
@@ -4590,7 +4590,7 @@ const boundaries = [
     "oE": "",
     "city": "Los Angeles",
     "zip": 90035,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -4602,7 +4602,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -4612,7 +4612,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -4624,7 +4624,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -4634,7 +4634,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -4646,7 +4646,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -4656,7 +4656,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90211,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -4668,7 +4668,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -4678,7 +4678,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90211,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -4690,7 +4690,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 8536,
@@ -4700,7 +4700,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90211,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -4712,7 +4712,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 9100,
@@ -4722,7 +4722,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -4734,7 +4734,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -4744,7 +4744,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90211,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -4756,7 +4756,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -4766,7 +4766,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90211,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -4778,7 +4778,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 8453,
@@ -4788,7 +4788,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90211,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -4800,7 +4800,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 8537,
@@ -4810,7 +4810,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90211,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -4822,7 +4822,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -4832,7 +4832,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -4844,7 +4844,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 8800,
@@ -4854,7 +4854,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -4866,7 +4866,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -4876,7 +4876,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90211,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -4888,7 +4888,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -4898,7 +4898,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90211,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -4910,7 +4910,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -4920,7 +4920,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -4932,7 +4932,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -4942,7 +4942,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -4954,7 +4954,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -4964,7 +4964,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -4976,7 +4976,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -4986,7 +4986,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -4998,7 +4998,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -5008,7 +5008,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90211,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -5020,7 +5020,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 200,
@@ -5030,7 +5030,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90211,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -5042,7 +5042,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 8301,
@@ -5052,7 +5052,7 @@ const boundaries = [
     "oE": "O",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -5064,7 +5064,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 8800,
@@ -5074,7 +5074,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -5086,7 +5086,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -5096,7 +5096,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90211,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -5108,7 +5108,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -5118,7 +5118,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90211,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -5130,7 +5130,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -5140,7 +5140,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90211,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -5152,7 +5152,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 200,
@@ -5162,7 +5162,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90211,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -5174,7 +5174,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -5184,7 +5184,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90211,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -5196,7 +5196,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -5206,7 +5206,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90211,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -5218,7 +5218,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -5228,7 +5228,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90211,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -5240,7 +5240,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -5250,7 +5250,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90211,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -5262,7 +5262,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -5272,7 +5272,7 @@ const boundaries = [
     "oE": "E",
     "city": "Beverly Hills",
     "zip": 90211,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -5284,7 +5284,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -5294,7 +5294,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90211,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -5306,7 +5306,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 101,
@@ -5316,7 +5316,7 @@ const boundaries = [
     "oE": "O",
     "city": "Beverly Hills",
     "zip": 90211,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -5328,7 +5328,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -5338,7 +5338,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -5350,7 +5350,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -5360,7 +5360,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -5372,7 +5372,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -5382,7 +5382,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -5394,7 +5394,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -5404,7 +5404,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -5416,7 +5416,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 8800,
@@ -5426,7 +5426,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90211,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -5438,7 +5438,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 9100,
@@ -5448,7 +5448,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90211,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -5460,7 +5460,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 9100,
@@ -5470,7 +5470,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -5482,7 +5482,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 9100,
@@ -5492,7 +5492,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -5504,7 +5504,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -5514,7 +5514,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90210,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -5526,7 +5526,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -5536,7 +5536,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -5548,7 +5548,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -5558,7 +5558,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -5570,7 +5570,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -5580,7 +5580,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -5592,7 +5592,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -5602,7 +5602,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -5614,7 +5614,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 101,
@@ -5624,7 +5624,7 @@ const boundaries = [
     "oE": "O",
     "city": "Beverly Hills",
     "zip": 90211,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -5636,7 +5636,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 400,
@@ -5646,7 +5646,7 @@ const boundaries = [
     "oE": "E",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -5658,7 +5658,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 401,
@@ -5668,7 +5668,7 @@ const boundaries = [
     "oE": "O",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -5680,7 +5680,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -5690,7 +5690,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90211,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -5702,7 +5702,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -5712,7 +5712,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90211,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -5724,7 +5724,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -5734,7 +5734,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90211,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -5746,7 +5746,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -5756,7 +5756,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90211,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -5768,7 +5768,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 200,
@@ -5778,7 +5778,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90211,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -5790,7 +5790,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -5800,7 +5800,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90211,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -5812,7 +5812,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -5822,7 +5822,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90211,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -5834,7 +5834,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 8801,
@@ -5844,7 +5844,7 @@ const boundaries = [
     "oE": "O",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -5856,7 +5856,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 9400,
@@ -5866,7 +5866,7 @@ const boundaries = [
     "oE": "E",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -5878,7 +5878,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -5888,7 +5888,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90211,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -5900,7 +5900,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 100,
@@ -5910,7 +5910,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90211,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -5922,7 +5922,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 9100,
@@ -5932,7 +5932,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90212,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -5944,7 +5944,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   },
   {
     "low": 8300,
@@ -5954,7 +5954,7 @@ const boundaries = [
     "oE": "",
     "city": "Beverly Hills",
     "zip": 90211,
-    "Transitional Kindergarten": 302,"k": 302,
+    "TK": 302,"k": 302,
     "1": 302,
     "2": 302,
     "3": 302,
@@ -5966,7 +5966,7 @@ const boundaries = [
     "9": 301,
     "10": 301,
     "11": 301,
-    "12": 301, "Continuation School": 8380
+    "12": 301, "Continuation": 8380
   }
 ]
 
