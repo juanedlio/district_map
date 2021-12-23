@@ -12,7 +12,7 @@ From terminal, run `node start` or `npm start`. Open browser to `localhost:5000`
 Using the tool is simple. Begin entering address into search bar and choose an autocomplete option. Choose grade level of child. Click `Check Location` and the results will be displayed beneath the address form.
 
 ## To Add Addresses/Schools
-Boundaries use the following format:
+Boundaries use the following format below and make sure they're all lowercase letters! 
 ```
 {
     "low": Number, // The starting address number
@@ -23,7 +23,7 @@ Boundaries use the following format:
     "city": String, // City
     "zip": Number, // Zip Code
 /* Edlio school code representing the school each grade in this address block is assigned to */
-    "Transitional Kindergarten": Number,
+    "tk": Number,
     "k": Number,
     "1": Number,
     "2": Number,
@@ -36,7 +36,8 @@ Boundaries use the following format:
     "9": Number,
     "10": Number,
     "11": Number,
-    "12": Number
+    "12": Number,
+    "continuation": Number
 }
 ```
 
