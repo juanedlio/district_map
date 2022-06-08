@@ -8,9 +8,6 @@ function findSchool(address, boundaries, schoolData) {
             if (address.route == boundary.street || address.route == (`${boundary.dir} ${boundary.street}`)) {
                 if (boundary.low <= address.street_number && boundary.high >= address.street_number) {
                     result = schoolData.filter(school => school.id == boundary[address.grade.toLowerCase()])[0];
-                    if(!result ){
-                      result = -1
-                    }
                     return result;
                 }
             }
