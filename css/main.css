@@ -8,6 +8,9 @@
   display: block;
   margin-bottom: 5px;
 }
+.col-sm-offset-2 {
+    margin-left: 0% !important;
+}
 
 #form_wrapper #address_table {
   max-width: 360px;
