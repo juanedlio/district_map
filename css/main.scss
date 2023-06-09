@@ -49,9 +49,11 @@
   }
   
 .col-sm-offset-2 {
+    margin-left: 0%;
+}
+.col-sm-offset-3 {
     margin-left: 7%;
 }
-
 @media (min-width: 992px)
 .col-md-offset-3 {
     margin-left: 7%;
