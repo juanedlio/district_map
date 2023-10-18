@@ -1,5 +1,5 @@
 const axios = require('axios');
-const schools = require('../js/Schools');
+const schools = require('./js/Schools');
 
 const { promisify } = require('es6-promisify');
 
