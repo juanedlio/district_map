@@ -1,6 +1,7 @@
 const schools = require('../models/Schools');
 const boundaries = require('../models/boundaries');
 
+
 function findSchool(address, boundaries, schoolData) {
     let result = -1;
  boundaries.forEach(function (boundary) {
@@ -8,9 +9,6 @@ function findSchool(address, boundaries, schoolData) {
             if (address.route == boundary.street || address.route == (`${boundary.dir} ${boundary.street}`)) {
                 if (boundary.low <= address.street_number && boundary.high >= address.street_number) {
                     result = schoolData.filter(school => school.id == boundary[address.grade.toLowerCase()])[0];
-                    if(!result ){
-                      result = -1
-                    }
                     return result;
                 }
             }
@@ -24,7 +22,11 @@ exports.homePage = async (req, res) => {
     res.render('index', { title: "School Finder", school});
 }
 
+
 exports.checkAddress = (req, res) => {
+    const app = express();
+    app.use(express.json());
+     
     const schoolData = schools.JSON;
     const address = req.body;
     let results = findSchool(address, boundaries, schoolData.schools);
